@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<title>Responsive Mall.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/CSS/myCustom.css">
+<script src="/javascript/myCustomJs.js"></script>
+<script src="/javascript/favorite country.js"></script>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" >Home</a>
+          <a href="london.html">London</a>
+          <a href="paris.html" >Paris</a>
+          <a href="tokyo.html">Tokyo</a>
+          <a href="CitiesBucketlist.html">Cities Bucketlist</a>
+          <a href="contactform.html">Contact</a>
+          <a href="survey.html">Survey</a>
+          <a href="Favorit country.html" class="active">Favorite country</a>
+
+      
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+
+    <div class="w3-container w3-purple">
+        <h2>Your favourite travel country</h2>
+    </div>
+
+    
+    
+    <div class="w3-row-padding">
+            <div class="w3-third"><br>
+                    <h4>Resister a user</h4>
+                    <form id="form1" name="form1" action=" ">
+                        Username:<br>
+                        <input type="text" name="username" /> <br>
+                    </form>
+            </div>
+             <div class="w3-third">
+                    <fieldset style="width: 85%;">
+                        <label for="select"><br><h4>Choose a country:</h4> </label>
+                            <select name="favorit country" id="favorit country">
+                            <option> Choose countery</option><br/>
+                            <option value="England" > England </option>
+                            <option value="France"> France </option>
+                            <option value="Japan"> Japan </option>
+                            <option value="Italy"> Italy </option>
+                            <option value="USA"> USA </option>
+                            <option value="Sweden"> Sweden </option>
+                            <option value="Germany"> Germany </option>
+                            <option value="Austria"> Austria </option>
+                            <option value="Australia"> Australia </option>
+                            <option value="New Zealand"> New Zealand </option>
+                            <option value="Canada"> Canada </option>
+                            <option value="Belgien"> Belgien </option>
+                        </select>
+                        <br> 
+                        <br>
+                        <button type="button" name="button" id="button" onclick="addCountry()">Add a list</button>
+                    </fieldset>                
+            </div>
+
+
+            <div class="w3-third"><br>
+                        <div class="w3-half">
+                            <h4>My favourite list:</h4>
+                            <ul id="favoriteCountries"></ul>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

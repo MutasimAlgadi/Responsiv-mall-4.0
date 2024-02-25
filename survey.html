@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<title>Responsive Mall.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/CSS/myCustom.css">
+<script src="/javascript/myCustomJs.js"></script>
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" >Home</a>
+          <a href="london.html">London</a>
+          <a href="paris.html" >Paris</a>
+          <a href="tokyo.html">Tokyo</a>
+          <a href="CitiesBucketlist.html">Cities Bucketlist</a>
+          <a href="contactform.html">Contact</a>
+          <a href="survey.html" class="active">Survey</a>
+          <a href="Favorit country.html">Favorite country</a>
+
+      
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    <div class="w3-container w3-yellow">
+        <h2>Survey</h2>
+           <p>What is your favourite city</p>              
+    </div>
+
+   <form id="demo" action="mailto:mutasim.algadi@gmail.com" enctype="text/plain">
+        <div class="">
+           <form id="form1" name="form1" action="index.html">
+                <fieldset style="width: 30%;">
+                    <legend>Contact details</legend>
+                    <label for="fnamn">First name:<span>*</span></label> <br>
+                    <input type="text" name="fnamn" id="fnamn" value="Mutasim" required/> <br>
+                    <label for="enamn">Surname:<span>*</span></label> <br>
+                    <input type="text" name="enamn" id="enamn" value="Algadi" required/> <br>
+                    <label for="epost">E-mail:<span>*</span></label> <br>
+                    <input type="email" name="epost" id="epost" value="mutasim.lgadi@gmail.com" required /> <br>
+                
+                </fieldset>
+            </form>
+            <br>
+
+            <form id="form2" name="form2" action="index.html">
+                <fieldset style="width: 30%;">
+                    
+                    <label for="meddelande">What is your next travel destination?</label> <br>
+                    <textarea name="meddelande" id="meddelande" cols="40" rows="5"></textarea> <br>
+                    <label for="skicka"></label>
+                </fieldset>
+            </form>
+            <br>
+
+            <form id="form3" name="form3" action="">
+                <fieldset style="width: 30%;">
+                    <legend>Favourit city</legend>
+                    <input type="radio" name="favoritarstid" id="var" value="var" />
+                    <label for="var">London</label> <br>
+                    <input type="radio" name="favoritarstid" id="sommar" value="sommar" />
+                    <label for="sommar">Paris</label> <br>
+                    <input type="radio" name="favoritarstid" id="host" value="host" />
+                    <label for="host">Tokyo</label> <br>
+                    <input type="radio" name="favoritarstid" id="vinter" value="vinter" />
+                    <label for="vinter">Other</label>
+                    <br>
+                </fieldset>
+            </form>
+            <br>
+
+            <fieldset style="width: 30%;">
+                <legend>Preferred time to travel</legend>
+                <input type="checkbox" name="PreferredTime" id="autumn" value="autumn" />
+                <label for="var">Autumn</label><br>
+                <input type="checkbox" name="PreferredTime" id="summer" value="summer" />
+                <label for="sommar">Summer</label> <br>
+                <input type="checkbox" name="PreferredTime" id="spring" value="spring" />
+                <label for="host">Spring</label> <br>
+                <input type="checkbox" name="PreferredTime" id="vinter" value="Winter" />
+                <label for="Winter">Winter</label>
+            </fieldset>
+            <br>
+ 
+            <form id="form4" name="form4" action="">
+                <fieldset style="width: 30%;">
+                    <legend>Favorite flight</legend>
+                    <input type="radio" name="FavoriteFlight" id="gulf" value="gulf" />
+                    <label for="var">Gulf Air</label> <br>
+                    <input type="radio" name="FavoriteFlight" id="emirates" value="emirates" />
+                    <label for="sommar">Emirates</label> <br>
+                    <input type="radio" name="FavoriteFlight" id="qatar" value="qatar" />
+                    <label for="host">Qatar Air</label> <br>
+                    <input type="radio" name="FavoriteFlight" id="nileAir" value="nileAir" />
+                    <label for="vinter">Nile Air</label>
+                    <br>
+                </fieldset>
+
+                <fieldset style="width: 30%;">
+                    <legend>Preferred method of travel</legend>
+                    <input type="checkbox" name="PreferredMethod" id="single" value="single" />
+                    <label for="var">Single</label><br>
+                    <input type="checkbox" name="PreferredMethod" id="friends" value="friends" />
+                    <label for="sommar">with friends</label> <br>
+                    <input type="checkbox" name="PreferredMethod" id="family" value="family" />
+                    <label for="host">With family</label> <br>
+                    
+                </fieldset>
+                <br>
+
+                <fieldset style="width: 30%;">
+                    <legend>Favorite time to travel</legend>
+                    <label for="select"><br>Choose the preferred time to travel:</label><br>
+                        <select name="favoritarstid" id="favoritarstid">
+                        <option> Choose the time here! </option>
+                        <option value="var"> In the morning </option>
+                        <option value="sommar"> At noon </option>
+                        <option value="host"> In the evening </option>
+                    </select>
+                </fieldset>
+<br>
+                <form id="form2" name="form2" action="index.html">
+                    <fieldset style="width: 30%;">
+                        
+                        <label for="meddelande">Is there anything you would like to add?</label> <br>
+                        <textarea name="meddelande" id="meddelande" cols="40" rows="5"></textarea> <br>
+                        <label for="skicka"></label>
+                    </fieldset>
+                </form>
+                <br>
+
+            <input type="submit" value="Send">
+        </div>
+    </form>
+
+
+
+
+
+
+
+</body>
+</html>
